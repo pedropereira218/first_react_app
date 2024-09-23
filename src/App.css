@@ -1,0 +1,29 @@
+.Nav{
+    display: flex;
+    width: 100%;
+    height: 10vh;
+    background-color: #FFFFFF;
+    border-bottom: 2px solid #e36200;
+    opacity: 0.8;
+}
+
+.Nav ul{
+    height: 100%; /* 100% of the parent - of the nav bar */
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+
+}
+
+.Nav ul li{
+    height: 80%;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+    border-right: 2px solid #e36200;
+    
+}
