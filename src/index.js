@@ -4,7 +4,9 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+// Define html element where the app will be rendered
 const root = ReactDOM.createRoot(document.getElementById('root'));
+// root.render is used to make the app js file appear in the webpage
 root.render(
   <React.StrictMode>
     <App />
